@@ -1,0 +1,16 @@
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\bin\Debug\net5.0\SleepingData.exe
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\bin\Debug\net5.0\SleepingData.deps.json
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\bin\Debug\net5.0\SleepingData.runtimeconfig.json
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\bin\Debug\net5.0\SleepingData.runtimeconfig.dev.json
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\bin\Debug\net5.0\SleepingData.dll
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\bin\Debug\net5.0\ref\SleepingData.dll
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\bin\Debug\net5.0\SleepingData.pdb
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.csprojAssemblyReference.cache
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.AssemblyInfoInputs.cache
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.AssemblyInfo.cs
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.csproj.CoreCompileInputs.cache
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.dll
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\ref\SleepingData.dll
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.pdb
+C:\Users\Sumin\Desktop\DotNetDb\SleepingData\obj\Debug\net5.0\SleepingData.genruntimeconfig.cache
