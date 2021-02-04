@@ -63,51 +63,40 @@ namespace SleepData
                     string line = sr.ReadLine();
                     string[] arr = line.Split(',');
                     string date = DateTime.Parse(arr[0]).ToString("MMM, dd, yyyy");
-                    string[] hours = arr[1].Split('|');
-                    int total = 0;
-                    int average;
-                    foreach (string hour in hours) {
-                        total += Int32.Parse(hour);
+
+                    string[] hours1 = arr[1].Split('|');
+                    
+                    double total = 0;
+                    double average;
+
+                    foreach (string hour in hours1) {
+                        total += Double.Parse(hour);
                     }
 
                     average = total / 7;
 
-                    //how to print out this part
-                    
-                    Console.WriteLine("Week of " + date);
+                                        
+                    Console.WriteLine($"Week of {date}");
+                    Console.WriteLine($" Su Mo Tu WE Th Fr Sa Tot Avg");
+                    Console.WriteLine($" -- -- -- -- -- -- -- --- ---");
 
-                    //Console.WriteLine(arr1[1]);
-                    Console.WriteLine("Su Mo Tu WE Th Fr Sa Tot Avg");
-                    Console.WriteLine("-- -- -- -- -- -- -- --- ---");
+                    const int rightAligned = 3;
 
-                    Console.Write(String.Join(" ", hours));
-                    Console.WriteLine(" " + total + " " + average);
-                    //Console.WriteLine($"{arr2[1]}");
+                    foreach (string hour in hours1){                                                               
+                        
+                        Console.Write($"{hour,rightAligned}");
+
+                    }
                     
+                    Console.WriteLine($" {total,rightAligned} {average,rightAligned:F1}"); 
+                    
+                    Console.WriteLine("");
+
+                   
                 }
                 sr.Close();
+                
 
-
-
-
-
-
-
-
-                /*
-                // TODO: parse data file
-                Console.WriteLine("How many weeks of data is needed?");
-                // input the response (convert to int)
-                int weeks = int.Parse(Console.ReadLine());
-                DateTime today = DateTime.Now;
-                // we want full weeks sunday - saturday
-                DateTime dataEndDate = today.AddDays(-(int)today.DayOfWeek);
-                // subtract # of weeks from endDate to get startDate
-                DateTime dataDate = dataEndDate.AddDays(-(weeks * 7));
-
-                Console.WriteLine(dataDate);
-                Console.WriteLine(dataEndDate);
-                */
             }
         }
     }
