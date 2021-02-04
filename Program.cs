@@ -62,7 +62,7 @@ namespace SleepData
                 {
                     string line = sr.ReadLine();
                     string[] arr = line.Split(',');
-                    string date = DateTime.Parse(arr[0]).ToString("MMM. dd, yyyy");
+                    string date = DateTime.Parse(arr[0]).ToString("MMM, dd, yyyy");
                     string[] hours = arr[1].Split('|');
                     int total = 0;
                     int average;
